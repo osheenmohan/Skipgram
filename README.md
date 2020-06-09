@@ -60,8 +60,3 @@ For Running, type in terminal
 python skipGramModel.py
 
 ```
-
-Please note
-1)We have attached a ipynb file to show our implementation and understanding of the basic skipgram model
-2)The regex in the test script throws an error and we had a difficult time running the test script 
-We use the regex "[-+]?[0-9]*\.?[0-9]*$" and it works for us. The delay of 10mins was due to this, I hope you will consider our situation. 
