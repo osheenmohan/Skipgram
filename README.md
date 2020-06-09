@@ -20,8 +20,8 @@ Words -> Preprocessing -> Make dictionary -> Create unigram and Negative samplin
 The document is first split into sentences, the sentences are converted into word tokens. Since the presence of punctuation is not necessary for our task we eliminate them using a predefined
 spacy function. The result of the preprocessing steps is a list of tokens from each sentence that are void of punctuations. 
 
-## Make a dictionary with ID 
-We create a dictionary where the keys are the words and the values are the number of occurrences of the word. This is defined in the init function and used in various parts of the program 
+## Make dictionary with ID 
+We create a dictionary where the keys are words and the values are number of occurrences of the word. This is defined in the init function and used in various parts of the program 
 to see the length of our vocabulary and to loop through all the words of the given corpus. We also have two functions 1)w2id which given the word returns the index of the word 2)id2cnt 
 which provides the mapping between the word index and the count of the word. We also remove the words which occur less than the min-count argument. 
 
